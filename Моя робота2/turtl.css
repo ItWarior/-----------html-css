@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+div,p,a,img,form,button{
+    box-sizing: border-box;
+}
+header{
+    margin: 0 auto;
+    width: 1140px;  
+}
+ul,li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    margin-top: 42px;
+}
+.arot{
+    margin-left: 150px;
+}
+
+.phone {
+    font-size: 12px;
+    margin-left: auto;
+    
+    
+}
+.phone:hover {
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    padding: 12px 0;
+}
+.menu a:hover {
+    color: rgb(49, 238, 11);
+    border-top: 1px solid rgb(49, 238, 11);
+    border-bottom: 1px solid rgb(49, 238, 11);
+    transition: all 0.5s ease;
+}
+.menu ul{
+    display: flex;
+    margin-right: 15px;
+}
+h1{
+    padding: 0;
+    margin: 0px;
+    font-size: 37px;
+    font-weight: 900;
+}
+.hoder p{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 19px;
+}
+.hoder a{
+    border: 1px solid;
+    padding: 17px 0;
+    background-color: rgb(236, 240, 8);
+    color: black;
+    font-weight: 900;
+    font-size: 14px;
+    display: block;
+    width: 218px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 19px;
+}
+.hoder a:hover{
+    background: rgb(6, 245, 6);
+    transition: 1s all ease;
+    font-size: 15px;
+    
+}
+.telo{
+    display: flex;
+    align-items: center;
+    margin-top: 106px;
+    
+}
+.hoder{
+    flex-direction: column;
+    
+}
+.img1{
+    background: url('img/poly.png');
+    width: 380px;
+    height: 379px;
+    margin-left: auto;
+    margin-right: 81px;
+
+}
